@@ -1,64 +1,114 @@
-<p align="center">
-  <img width="1920" alt="lt" src="https://github.com/user-attachments/assets/658f539a-f4a9-4ad5-a3a2-6bb7aa6809bd" />
+# GLuaTools
 
-</p>
+GLuaTools is a community-driven fork of **LuaTools** focused on improving the Steam Lua and manifest management experience with additional features, fixes, customization, and quality-of-life improvements.
 
-# LuaTools
-<p>
-  <img align="right" height="250" src="https://github.com/user-attachments/assets/df083fb0-9be7-4690-9f0f-c8b0a73da881" />
+> GLuaTools is an independent fork and is not affiliated with Valve or Steam.
 
-  [Discord](https://discord.gg/luatools) • [Website](https://lua.tools) • [Git Mirror](https://git.lua.tools/luatools)
-  
-  A Windows desktop client for managing Steam manifest/lua configurations, built with WPF on .NET 8.
-    
-  LuaTools browses and installs manifest sources, edits `stplug-in` lua files (depot pinning,
-  per-depot enable/disable), manages unlocker modes, and injects a companion plugin into Steam's
-  store pages.
-  
-  It ships fully translated in 29 languages and auto-updates via Velopack.
-  <br><sub>Found a translation error? Tell us about it over on [Discord](https://discord.gg/luatools)</sub>
-</p>
+## Features
 
-## Statistics
-<div>
-  <img src="https://img.shields.io/github/downloads/madoiscool/luatools/LuaTools-win-Setup.exe?displayAssetName=true&style=for-the-badge" />
-  <img src="https://img.shields.io/github/downloads/madoiscool/luatools/LuaTools-win-Portable.zip?displayAssetName=true&style=for-the-badge" />
-</div>
+* Improved LuaTools experience
+* Steam Lua management
+* Manifest management
+* Quality-of-life improvements
+* Bug fixes and stability improvements
+* Additional customization options
+* Cleaner and easier-to-use workflow
+* Continued improvements over the original project
 
-<a href="https://www.star-history.com/?repos=madoiscool%2Fluatools&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=madoiscool/luatools&type=date&theme=dark&legend=top-left&sealed_token=1SX6CDP2N0Emx5IbGfQmEz4TxM11iXtfLKL9K1utRzINJPEDv55f5XEYjliBUB1No6wbcWbMs-cSzO65OC7kAlMLAHJXjqmDoeRCM6hVtW9xd7fyg8cr2DG4gATwkgym1JvgPs4_PeGi6XMAm7_2CVXU9UxRLBW_GP4-Qmd3-AosSRCM1Nkm7dEr2_Ut" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=madoiscool/luatools&type=date&legend=top-left&sealed_token=1SX6CDP2N0Emx5IbGfQmEz4TxM11iXtfLKL9K1utRzINJPEDv55f5XEYjliBUB1No6wbcWbMs-cSzO65OC7kAlMLAHJXjqmDoeRCM6hVtW9xd7fyg8cr2DG4gATwkgym1JvgPs4_PeGi6XMAm7_2CVXU9UxRLBW_GP4-Qmd3-AosSRCM1Nkm7dEr2_Ut" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=madoiscool/luatools&type=date&legend=top-left&sealed_token=1SX6CDP2N0Emx5IbGfQmEz4TxM11iXtfLKL9K1utRzINJPEDv55f5XEYjliBUB1No6wbcWbMs-cSzO65OC7kAlMLAHJXjqmDoeRCM6hVtW9xd7fyg8cr2DG4gATwkgym1JvgPs4_PeGi6XMAm7_2CVXU9UxRLBW_GP4-Qmd3-AosSRCM1Nkm7dEr2_Ut" />
- </picture>
-</a>
+## Why GLuaTools?
 
-## Requirements
+GLuaTools was created to build on top of LuaTools while keeping the simple utility-focused experience of the original project.
 
-- Windows 10/11
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (the released installer bundles a
-  check for the .NET 8 **Desktop Runtime** and installs it if missing; [building from source](https://github.com/madoiscool/LuaTools/blob/main/CONTRIBUTING.md#building-from-source--developing) needs
-  the full SDK
+The goal is to:
+
+* Add useful new features
+* Fix issues found in the original project
+* Improve usability
+* Keep the project actively maintained
+* Make configuration and management easier
 
 ## Installation
-You can find release builds on the [luatools website](https://lua.tools/app) or in the [releases](https://github.com/madoiscool/LuaTools/releases/latest) tab. 
 
-## Credits / Adjacent software
+1. Download the latest release from the **Releases** page.
+2. Extract the downloaded archive.
+3. Open the GLuaTools folder.
+4. Run the application.
+5. Follow the instructions provided inside the program.
 
-- [Millennium](https://steambrew.app/): the Steam plugin framework whose injection API this app
-  polyfills when Millennium isn't installed
-- [Velopack](https://velopack.io/): installer and auto-update framework
-- [DepotDownloaderMod](https://github.com/SteamAutoCracks/DepotDownloaderMod): downloads depot content
-  from Steam's CDN, powering the Depots page's Download action. A fork of
-  [DepotDownloader](https://github.com/SteamRE/DepotDownloader), fetched and run as a standalone tool
-- [SteamAutoCrack](https://github.com/SteamAutoCracks/Steam-auto-crack): fetched and launched from the
-  Downloads page
-- [Steamless](https://github.com/atom0s/Steamless): removes SteamStub from game executables
-- [CloudRedirect](https://github.com/Selectively11/CloudRedirect): Steam Cloud revival project, can be turned on via the mode page
+Always download GLuaTools directly from the official GitHub repository.
 
-## Licence
+## Updating
 
-MIT. See [LICENSE](LICENSE).
+When a new version is released:
 
-<img width="100%" alt="928c14bad5bbc258894b050af1e17ba8" src="https://github.com/user-attachments/assets/90ed4a2b-6fec-4afa-a56d-4983ea190ddb" />
+1. Download the newest release.
+2. Replace your existing GLuaTools files.
+3. Keep any configuration files you want to preserve.
 
+More convenient update methods may be added in future versions.
+
+## Building From Source
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/GLuaTools.git
+```
+
+Enter the project directory:
+
+```bash
+cd GLuaTools
+```
+
+Then build the project using the development environment and dependencies required by the original LuaTools project.
+
+More detailed build instructions may be added as GLuaTools develops.
+
+## Credits
+
+GLuaTools is based on **LuaTools**.
+
+Huge credit goes to the original LuaTools developers and contributors for creating the project this fork is based on.
+
+If you use or redistribute GLuaTools, please respect the license and attribution requirements of the original project.
+
+## Contributing
+
+Contributions are welcome.
+
+You can help by:
+
+* Reporting bugs
+* Suggesting features
+* Improving documentation
+* Fixing issues
+* Submitting pull requests
+
+When reporting a bug, include as much information as possible, such as:
+
+* GLuaTools version
+* Operating system
+* What you were trying to do
+* What happened
+* Any error messages or logs
+
+## Disclaimer
+
+GLuaTools is provided as-is.
+
+Use it at your own risk. The developers and contributors are not responsible for account issues, data loss, software problems, or other damage caused by improper use of the program.
+
+GLuaTools is not affiliated with, endorsed by, or sponsored by Valve Corporation, Steam, or the original LuaTools developers.
+
+## License
+
+GLuaTools follows the licensing requirements of the original LuaTools project.
+
+See the `LICENSE` file for more information.
+
+---
+
+### GLuaTools
+
+**A community-driven LuaTools fork with extra features, fixes, and improvements for Steam Lua and manifest management.**
