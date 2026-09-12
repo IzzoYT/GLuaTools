@@ -1,3 +1,14 @@
+
+
+<p align="center">
+  <img src="assets/gluatools-community.png" alt="GLuaTools Community Edition" width="750">
+</p>
+
+<p align="center">
+  A modern Steam Lua, plugin, manifest, and developer utility.
+</p>
+
+
 # GLuaTools
 
 GLuaTools is a community-driven fork of **LuaTools** focused on improving the Steam Lua and manifest management experience with additional features, fixes, customization, and quality-of-life improvements.
