@@ -120,6 +120,6 @@ See the `LICENSE` file for more information.
 
 ---
 
-### GLuaTools
+### More GLuaTools sucker- i mean versions down below
 
-**A community-driven LuaTools fork with extra features, fixes, and improvements for Steam Lua and manifest management.**
+https://github.com/IzzoYT/GluaTools-studio-edition
